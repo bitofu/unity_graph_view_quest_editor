@@ -1,6 +1,6 @@
 # About
 
-Snippet code for an in Unity graph based quest editor.
+Snippet code for an in Unity graph based quest editor. Starts from `IncididentGraphEditorWindow`
 
 The graph style is based off of: [@Wafflus](https://github.com/Wafflus/unity-dialogue-system)
 
