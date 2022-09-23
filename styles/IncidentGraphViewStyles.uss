@@ -1,0 +1,15 @@
+GridBackground {
+  --grid-background-color: var(--ig-colours-grid-light-grey-1);
+  --line-color: var(--ig-colours-grid-light-grey-2);
+  --thick-line-color: var(--ig-colours-grid-light-grey-3);
+  --spacing: 25;
+}
+
+.ig-group > .mainContainer > #headerContainer > #titleContainer > #titleLabel {
+  font-size: 64px;
+}
+
+.ig-group > .mainContainer > #headerContainer > #titleContainer > #titleField > .unity-text-field__input {
+  font-size: 64px;
+  -unity-text-align: upper-center;
+}

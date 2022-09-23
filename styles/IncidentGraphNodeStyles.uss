@@ -1,0 +1,268 @@
+.test1 {
+  background-color: yellow;
+}
+.test2 {
+  background-color: green;
+}
+.test3 {
+  background-color: blue;
+}
+
+/* containers */
+
+.ig-node__main-container {
+  background-color: var(--ig-colours-window-dark-grey-1);
+}
+
+.ig-node__main-container-warning {
+  background-color: var(--ig-colours-window-yellow);
+}
+
+.ig-node__main-container-error {
+  background-color: var(--ig-colours-window-red);
+}
+
+.ig-node__main-container-running {
+  background-color: var(--ig-colours-window-green);
+}
+
+.ig-node__main-container-debug {
+  background-color: var(--ig-colours-window-blue);
+}
+
+.ig-node__top-container {
+}
+
+.ig-node__extension-container {
+  background-color: var(--ig-colours-window-dark-grey-1);
+  padding: 2px;
+}
+
+.ig-node__custom-data-container {
+  max-width: 350px;
+  padding: 2px;
+}
+
+.ig-node__object-field-container {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 2px;
+}
+
+.ig-node__button-flex-container {
+  flex-grow: 1;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.ig-node__button-flex-container-bottom {
+  flex-grow: 1;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.ig-node__container-with-bar {
+  border-left-color: var(--ig-colours-window-dark-grey-6);
+  border-left-width: 4px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  padding-left: 3px;
+}
+
+.ig-node__container-with-border {
+  border-color: var(--ig-colours-window-dark-grey-4);
+  border-radius: 4px;
+  border-width: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 2px;
+  max-width: 350px;
+}
+
+.ig-node__foldout-container {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  max-width: 280px;
+}
+
+.ig-node__foldout-container-with-border {
+  border-color: var(--ig-colours-window-dark-grey-4);
+  border-radius: 4px;
+  border-width: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 2px;
+  max-width: 280px;
+}
+
+.ig-node__choice-speeches-container {
+  border-color: var(--ig-colours-window-dark-grey-4);
+  border-radius: 4px;
+  border-width: 2px;
+  margin-top: 4px;
+  padding-bottom: 4px;
+}
+
+.ig-node__nameplate-container {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.ig-node__speech-unit-container {
+  padding-top: 4px;
+  margin-top: 4px;
+}
+
+/* inputs */
+
+.ig-node__textfield__hidden > .unity-text-field__input {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.ig-node__textfield__hidden > .unity-text-field__input:focus {
+  background-color: var(--ig-colours-window-dark-grey-1);
+  border-color: var(--ig-colours-window-dark-grey-6);
+}
+
+.ig-node__choice-textfield > .unity-text-field__input {
+  font-size: 11px;
+  height: 34px;
+  max-width: 250px;
+  padding: 1px;
+  padding-left: 8px;
+}
+
+.ig-node__choice-textfield > .unity-text-field__input:focus {
+  height: 24px;
+  margin-left: 6px;
+  padding: 1px;
+  padding-left: 2px;
+}
+
+.ig-node__nameplate-textfield > .unity-text-field__input {
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--ig-colours-window-dark-grey-4);
+  border-color: transparent;
+  border-left-color: var(--ig-colours-window-dark-grey-6);
+  border-left-width: 4px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-width: 50px;
+  max-width: 250px;
+}
+
+.ig-node__nameplate-textfield > .unity-text-field__input:focus {
+  background-color: var(--ig-colours-window-dark-grey-1);
+  border-color: var(--ig-colours-window-dark-grey-6);
+}
+
+.ig-node__text-area-textfield > .unity-text-field__input {
+  background-color: var(--ig-colours-window-dark-grey-4);
+  border-color: transparent;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  padding: 8px;
+  min-width: 300px;
+  max-width: 300px;
+  white-space: normal;
+}
+
+.ig-node__text-area-textfield > .unity-text-field__input:focus {
+  background-color: var(--ig-colours-window-dark-grey-1);
+  border-color: var(--ig-colours-window-dark-grey-6);
+  white-space: normal;
+}
+
+.ig-node__field__input > .unity-text-field__input {
+  background-color: var(--ig-colours-input-field-default);
+  font-size: 12px;
+}
+
+.ig-node__field__input > .unity-text-field__input:focus {
+}
+
+.ig-node__textfield {
+  min-width: 250px;
+}
+
+.ig-node__gameobject-id-textfield {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.ig-node__key-object-field {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.ig-node__title-toggle {
+  background-color: var(--ig-colours-window-dark-grey-9);
+  border-width: 1px;
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 2px;
+}
+
+.ig-node__toggle {
+  border-width: 0px;
+}
+
+.ig-node__label > .unity-label {
+  padding-top: 2px;
+  font-size: 13px;
+  -unity-text-align: middle-left;
+}
+
+/* buttons */
+
+.ig-node__button-add {
+  min-width: 100px;
+}
+
+/* elements */
+
+ObjectField {
+  -unity-text-align: middle-center;
+}
+
+.ig-node__top-container > TextField {
+  background-color: yellow;
+}
+
+.ig-node__custom-data-container > Foldout {
+  margin-left: -4px;
+  margin-top: 4px;
+}
+
+.ig-node__custom-data-container > Foldout > TextField {
+  margin-left: -12px;
+  margin-top: 8px;
+}
+
+.ig-node__port-error {
+  background-color: var(--ig-colours-port-red);
+}
+
+/* built in */
+
+.unity-toggle__text {
+  padding-left: 4px;
+}
